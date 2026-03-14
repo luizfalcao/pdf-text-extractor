@@ -1,0 +1,8 @@
+.venv/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+.python-version
+README.md
+dados.txt
