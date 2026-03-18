@@ -1,0 +1,7 @@
+services:
+  pdf-text-extractor:
+    build: .
+    container_name: pdf-text-extractor
+    ports:
+      - "3001:8000"
+    restart: unless-stopped
