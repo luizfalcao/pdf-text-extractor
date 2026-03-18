@@ -11,7 +11,7 @@ git pull origin main
 echo "==> Subindo aplicação"
 docker compose up -d --build
 
-echo "==> Limpando imagens antigas sem uso"
+echo "==> Limpando imagens antigas sem uso" 
 docker image prune -f
 
 echo "==> Status final"
